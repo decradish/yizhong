@@ -1,0 +1,5 @@
+.about_core{padding:24px 50px;}
+.about_core .ab_title{font-size: 24px;color: #149fe2;font-weight: normal;padding-bottom: 24px;}
+.about_core .ab_txt_content p{line-height: 24px;text-indent: 20px;font-family: "宋体";font-size: 12px;}
+.about_core .ab_txt_content .ab_contact{margin-top: 20px;}
+.about_core .ab_txt_content .ab_contact p{text-indent: 0;}
