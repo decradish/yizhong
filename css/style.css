@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS reset */
+*{font-family: "优黑","微软雅黑", "宋体", "Microsoft Yahei", "Pinghei", Arial, Helvetica, sans-serif;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+fieldset,img {border:0; }
+ol,ul {list-style:none; }
+h1,h2,h3,h4,h5,h6,button,input,select,textarea {font-size:100%;}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0; border:0;}
+table {border-collapse:collapse;border-spacing:0;}
+i, cite, em, var, dfn, address {font-style: normal;}
+body{font:12px "微软雅黑", "宋体",Arial, Helvetica, sans-serif;}
+a{color: #313131;text-decoration: none;}
+a:hover{text-decoration: underline;}
+a:active, a:focus{outline:none}
+a[href^="http://tongji.baidu.com"]{display: none;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size:0;}
+.clearfix{zoom:1;clear:both;}
+.clear{clear:both; height:0; line-height:0; font-size:0;}
+.none{display: none;}
+
+body{}
+header{
+	width: 1000px;
+	height: 73px;
+	line-height: 73px;
+	font-size: 20px;
+	margin: 0 auto;}
+	header > *{float: left;}
+	header a:hover{text-decoration: none;}
+	.logo{
+		width: 162px;
+		margin-right: 20px;
+		text-indent: -99999px;
+		background: url(../img/logo.png) no-repeat center center;}
+	.nav a{display: inline-block;padding: 0 20px;}
+		.nav a:hover{color: #e5402c;}
+	header .cs{
+		float: right;
+		text-indent: 33px;
+		background: url(../img/cs.png) no-repeat 0 center;}
+.banner{
+	height: 301px;
+	border-top: 4px solid #00a0e6;
+	background: url(../img/banner_1.jpg) no-repeat center 0;
+	background-size: cover;}
+footer{background: #aaa;}
+	.footer_core{
+		width: 700px;
+		height: 105px;
+		margin: 0 auto;
+		font-size: 12px;
+		color: #4a4a4a;
+		line-height: 22px;
+		padding: 15px 0 0 300px;
+		background: url(../img/star.jpg) no-repeat 0 center;}
+
+.main{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 18px 0 28px;}
+	.left{
+		width: 645px;
+		float: left;
+		border: 1px solid #818181;
+		border-radius: 4px;
+		background: #f4f4f4;}
+		.crumbs{
+			height: 35px;
+			line-height: 35px;
+			text-indent: 10px;
+			font-size: 16px;
+			background: #d2d2d2 url(../img/crumbs.jpg) repeat-x 0 0;}
+			.crumbs a{color: #313131;}
+	.right{
+		margin-left: 666px;}
+		.right_top{font-size: 24px;line-height: 26px;}
+			.more{
+				font-size: 12px;
+				color: #d8452b;
+				padding-right: 25px;
+				display: inline-block;
+				float: right;
+				background: url(../img/more.png) no-repeat right center;}
+		.right_banner{
+			width: 328px;
+			height: 78px;
+			display: block;
+			margin: 20px 0;
+			border-radius: 3px;
+			border: 1px solid #959595;}
+			.right_banner img{display: block;border-radius: 3px;}
+		.card{
+			border-radius: 4px;
+			border: 1px solid #8d8d8d;
+			background: #f8f8f8;}
+			.card > h3{
+				line-height: 35px;
+				text-indent: 10px;
+				background: #d2d2d2 url(../img/crumbs.jpg) repeat-x 0 0;}
+			.sns{
+				padding-top: 15px;
+				text-align: center;}
+				.sns a{
+					width: 98px;
+					height: 20px;
+					border-radius: 5px;
+					display: inline-block;
+					margin: 0 25px 20px;
+					padding-top: 62px;
+					background: #eee url(../img/sns_logo.png) no-repeat 22px 6px;}
+					.sns a.sns_1{background-position: -131px 6px;}
+					.sns a.sns_2{background-position: 22px -100px;}
+					.sns a.sns_3{background-position: -131px -100px;}
+
+
+
+
+
+
+
+
+
+
