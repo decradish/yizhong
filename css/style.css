@@ -18,6 +18,21 @@ a[href^="http://tongji.baidu.com"]{display: none;}
 .clear{clear:both; height:0; line-height:0; font-size:0;}
 .none{display: none;}
 
+.display-flexbox {
+    display: -webkit-box;   /* 兼容旧的 webkit，Android 2.x */
+    display: -webkit-flex;  /* 标准写法 带 webkit 前缀，兼容标准确立之前的 webkit */
+    display: flex;          /* 标准写法 最新的 webkit, firefox, msie 可以支持 */
+}
+.flexbox-children {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.hidden {
+  display: none;
+}
+
+
 body{}
 header{
 	width: 1000px;
