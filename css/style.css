@@ -327,6 +327,7 @@ article{padding: 30px;}
 .pa_intro p{text-indent: 24px;line-height: 20px;}
 
 .product {padding: 0 20px;}
+.product_banner{background:url(../img/pro_banner.png) no-repeat center 0;}
 .product .item {padding-top: 20px;position: relative;}
 .product > div+div {border-top: 1px solid #848484;}
 .product .item .default{padding-bottom: 11px;}
@@ -373,6 +374,7 @@ article{padding: 30px;}
 }
 .product .detail {border-top: 1px dotted #848484;padding-bottom: 20px;}
 .product .detail .title {font-size: 18px;padding: 10px;color: #bebebe;}
+
 
 
 
