@@ -48,7 +48,8 @@ header{
 		text-indent: -99999px;
 		background: url(../img/logo.png) no-repeat center center;}
 	.nav a{display: inline-block;padding: 0 20px;}
-		.nav a:hover{color: #e5402c;}
+		.nav a:hover,
+		.nav a.current{color: #e5402c;}
 	header .cs{
 		float: right;
 		text-indent: 33px;
@@ -127,6 +128,214 @@ footer{background: #aaa;}
 					.sns a.sns_1{background-position: -131px 6px;}
 					.sns a.sns_2{background-position: 22px -100px;}
 					.sns a.sns_3{background-position: -131px -100px;}
+					.sns a.sns_0:hover,
+					.sns a.sns_2:hover{text-decoration: none;cursor: default;}
+					.tips{
+						display: none;
+						position: absolute;
+						padding: 5px 10px;
+						color: #149fe2;
+						margin: -143px 0 0 -32px;
+						background: #fff;
+						border-radius: 4px;
+						border: 3px solid #149fe2;}
+						.sns a:hover .tips{display: block;}
+						.sns_2 .tips{margin: 13px 0 0 -7px;}
+						.tips::before,
+						.tips::after{
+							content: '';
+							width: 0;
+							height: 0;
+							top: 0;
+							left: 0;
+							margin: 53px -15px 0 70px;
+							position: absolute;
+							border-width: 10px;
+							border-style: solid;
+							border-color: #149fe2 transparent transparent transparent;}
+							.tips::after{
+								margin-top: 49px;
+								border-color: #fff transparent transparent transparent;}
+							.sns_2 .tips::before{
+								margin: -23px 0 0 43px;
+								border-color: transparent transparent #149fe2 transparent;}
+							.sns_2 .tips::after{
+								margin: -19px 0 0 43px;
+								border-color: transparent transparent #fff transparent;}
+						.tips td{vertical-align: top;text-align: left;}
+						.sns_2 .tips img{display: block;padding: 8px 3px;}
+
+/***************
+@ For homepage
+@ By Kangning
+@ On 2015/05/17
+***************/
+.home_banner.banner{
+	background: none;
+	height: 525px;
+	overflow: hidden;}
+	.home_banner a.home_banner_item{
+		display: block;
+		height: 525px;
+		text-indent: -99999px;
+		background: url(../img/home_banner_0.jpg) no-repeat center center;
+		background-size: cover;}
+		.home_banner a.home_banner_1{background-image: url(../img/home_banner_1.jpg);}
+	.slidesjs-pagination{
+		width: 1000px;
+		margin: -40px auto 0;
+		z-index: 999;
+		background: red;
+		position: relative;}
+		.slidesjs-pagination a{
+			width: 12px;
+			height: 12px;
+			display: block;
+			float: left;
+			margin-right: 9px;
+			border-radius: 6px;
+			background: #fff;
+			text-indent: -99999px;}
+			.slidesjs-pagination a.active{background: #e5402c;width: 33px;}
+.home_list{
+	width: 333px;
+	float: left;}
+.home_sns{
+	width: 333px;
+	height: 212px;
+	padding-top: 30px;
+	float: left;
+	background: url(../img/sns_shadow.png) no-repeat center center;}
+	.home_sns a{margin: 0 12px 20px;}
+	.home_links{line-height: 28px;padding-top: 10px;}
+		.home_links a{
+			height: 28px;
+			display: block;
+			text-indent: 10px;
+			border-bottom: 1px dotted #848484;
+			background: url(../img/red_dot.png) no-repeat 0 center;}
+			.home_links span{float: right;}
+
+/***************
+@ For List page
+@ By Kangning
+@ On 2015/05/17
+***************/
+.list_box{
+	padding: 30px 20px 20px;}
+	.list_top{
+		padding-bottom: 18px;
+		overflow: hidden;
+		border-bottom: 1px solid #848484;}
+		.list_top > img{
+			display: block;
+			float: left;}
+		.list_article{
+			margin-left: 249px;
+			font-size: 16px;
+			color: #7d7d7d;}
+			.list_article strong{
+				display: block;
+				color: #e75753;
+				font-size: 20px;
+				font-weight: normal;}
+			.list_article span{
+				font-size: 14px;
+				display: block;
+				padding: 10px 0;}
+			.list_article p{text-indent: 30px;line-height: 25px;}
+	.list{line-height: 40px;}
+		.list a{
+			color: #313131;
+			display: block;
+			text-indent: 10px;
+			background: url(../img/red_dot.png) no-repeat 0 center;
+			border-bottom: 1px dotted #848484;}
+			.list a span{float: right;}
+	.png{text-align: center;padding-top: 20px;}
+		.png a,
+		.png span{
+			width: 15px;
+			height: 15px;
+			line-height: 16px;
+			color: #313131;
+			margin: 0 4px;
+			display: inline-block;
+			background: #fff;
+			border: 1px solid #149fe2;}
+		.png a:hover,
+		.png span{
+			color: #fff;
+			background: #149fe2;
+			text-decoration: none;}
+
+/***************
+@ For Detail page
+@ By Kangning
+@ On 2015/05/17
+***************/
+article{padding: 30px;}
+	article > h1{
+		font-size: 20px;
+		color: #e75753;
+		text-align: center;
+		font-weight: normal;
+		margin: 5px 0;}
+	.detail_time{
+		display: block;
+		color: #7d7d7d;
+		font-size: 14px;
+		text-align: center;
+		padding: 15px 0 10px;}
+	.article_content{
+		font-size: 18px;
+		color: #7d7d7d;
+		line-height: 30px;
+		text-indent: 30px;}
+		.article_content p{margin: 20px 0;}
+		.article_content img{
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;}
+
+
+.banner_about{background-image: url(../img/banner_about.jpg);}
+.banner_parental{background-image: url(../img/banner_parental.jpg);}
+.about_core{padding:24px 50px;}
+.about_core .ab_title{font-size: 24px;color: #149fe2;font-weight: normal;padding-bottom: 24px;}
+.about_core .ab_txt_content p{line-height: 24px;text-indent: 20px;font-family: "宋体";font-size: 12px;}
+.about_core .ab_txt_content .ab_contact{margin-top: 20px;}
+.about_core .ab_txt_content .ab_contact p{text-indent: 0;}
+
+.parental_core{padding:40px 14px; padding-bottom: 20px;}
+.pa_tab{padding-bottom: 10px;overflow: hidden;zoom:1;}
+.pa_tab .pa_tab_item{float: left;font-size: 16px;padding-right: 10px;}
+.pa_tab .cur a{text-decoration: underline;color: #e75753;}
+.pa_wrap{}
+.pa_wrap .pa_title{width: 300px; line-height: 38px; border:1px #60a5e7 solid;font-size: 20px;color:#FFF;text-shadow:1px 1px rgba(0,0,0,.3);background: url(../img/tit_bg.jpg) repeat-x;border-radius: 2px;padding-left: 22px;}
+.pa_wrap .pa_content{padding:18px 20px;}
+.pa_wrap .pa_content p{text-indent: 24px;line-height: 20px;}
+.pa_wrap .pa_content .pa_process{display: block; width:410px;margin:0 auto;margin-top: 10px;}
+.pa_wrap .pa_content .pa_bold{font-weight:bold;}
+.pa_wrap .pa_content .pa_content_item{padding-right: 250px; background: url(../img/parental_other.png) no-repeat 340px top;border-bottom:1px #848484 dashed;margin-bottom: 10px;padding-bottom: 20px;}
+.pa_wrap .pa_content .pa_noboder{border-bottom: 0;background-position: 340px -140px;margin:0;padding-bottom: 0;}
+.pa_wrap .pa_content .pa_content_item .pa_content_title{line-height: 30px; color: #149fe2;font-size: 20px;font-weight: bold;padding-bottom: 10px;}
+.pa_num{display: inline-block; width: 30px;height: 30px;border-radius: 15px;background: #149fe2; color: #FFF; text-align: center;margin-right: 10px;}
+
+.pa_intro_wrap{background: #d6ebf5;border:1px #00a0e6 solid;padding:22px;margin-bottom: 20px;margin-top: 10px;}
+.pa_intro{height: 140px; background: url(../img/shield.png) no-repeat right; padding-right: 130px;}
+.pa_intro p{text-indent: 24px;line-height: 20px;}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
