@@ -284,6 +284,34 @@ article{padding: 30px;}
 			max-width: 100%;}
 
 
+.banner_about{background-image: url(../img/banner_about.jpg);}
+.banner_parental{background-image: url(../img/banner_parental.jpg);}
+.about_core{padding:24px 50px;}
+.about_core .ab_title{font-size: 24px;color: #149fe2;font-weight: normal;padding-bottom: 24px;}
+.about_core .ab_txt_content p{line-height: 24px;text-indent: 20px;font-family: "宋体";font-size: 12px;}
+.about_core .ab_txt_content .ab_contact{margin-top: 20px;}
+.about_core .ab_txt_content .ab_contact p{text-indent: 0;}
+
+.parental_core{padding:40px 14px; padding-bottom: 20px;}
+.pa_tab{padding-bottom: 10px;overflow: hidden;zoom:1;}
+.pa_tab .pa_tab_item{float: left;font-size: 16px;padding-right: 10px;}
+.pa_tab .cur a{text-decoration: underline;color: #e75753;}
+.pa_wrap{}
+.pa_wrap .pa_title{width: 300px; line-height: 38px; border:1px #60a5e7 solid;font-size: 20px;color:#FFF;text-shadow:1px 1px rgba(0,0,0,.3);background: url(../img/tit_bg.jpg) repeat-x;border-radius: 2px;padding-left: 22px;}
+.pa_wrap .pa_content{padding:18px 20px;}
+.pa_wrap .pa_content p{text-indent: 24px;line-height: 20px;}
+.pa_wrap .pa_content .pa_process{display: block; width:410px;margin:0 auto;margin-top: 10px;}
+.pa_wrap .pa_content .pa_bold{font-weight:bold;}
+.pa_wrap .pa_content .pa_content_item{padding-right: 250px; background: url(../img/parental_other.png) no-repeat 340px top;border-bottom:1px #848484 dashed;margin-bottom: 10px;padding-bottom: 20px;}
+.pa_wrap .pa_content .pa_noboder{border-bottom: 0;background-position: 340px -140px;margin:0;padding-bottom: 0;}
+.pa_wrap .pa_content .pa_content_item .pa_content_title{line-height: 30px; color: #149fe2;font-size: 20px;font-weight: bold;padding-bottom: 10px;}
+.pa_num{display: inline-block; width: 30px;height: 30px;border-radius: 15px;background: #149fe2; color: #FFF; text-align: center;margin-right: 10px;}
+
+.pa_intro_wrap{background: #d6ebf5;border:1px #00a0e6 solid;padding:22px;margin-bottom: 20px;margin-top: 10px;}
+.pa_intro{height: 140px; background: url(../img/shield.png) no-repeat right; padding-right: 130px;}
+.pa_intro p{text-indent: 24px;line-height: 20px;}
+
+
 
 
 
