@@ -368,10 +368,12 @@ article{padding: 30px;}
 .product .icon_ios{
 	background:url('../img/pro_ios.png') no-repeat 0 0;
 	padding-left: 38px;
+	cursor: pointer;
 }
 .product .icon_android{
 	background:url('../img/pro_and.png') no-repeat 0 0;
 	padding-left: 38px;
+	cursor: pointer;
 }
 .product .detail {border-top: 1px dotted #848484;padding-bottom: 20px;}
 .product .detail .title {font-size: 18px;padding: 10px;color: #bebebe;}
