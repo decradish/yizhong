@@ -341,6 +341,7 @@ article{padding: 30px;}
 	float: right;
 	width: 60px;
 	color: #149fe2;
+	cursor: pointer;
 
 }
 .product .product_more_png > span{
