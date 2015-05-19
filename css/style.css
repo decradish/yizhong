@@ -131,6 +131,7 @@ footer{background: #aaa;}
 					.sns a.sns_0:hover,
 					.sns a.sns_2:hover{text-decoration: none;cursor: default;}
 					.tips{
+						z-index: 10;
 						display: none;
 						position: absolute;
 						padding: 5px 10px;
