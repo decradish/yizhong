@@ -57,7 +57,7 @@ class User extends CI_Controller {
 			}
 
 			if(empty($_SESSION['code']) || $code != $_SESSION['code']){
-				// $data['error']['code'] = '<span class="red">验证码错误</span>';
+				$data['error']['code'] = '<span class="red">验证码错误</span>';
 			}
 
 			if(!empty($data['error'])){
