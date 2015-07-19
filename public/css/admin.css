@@ -1,0 +1,50 @@
+*{font-family: 'Microsoft Yahei';}
+label{margin-bottom: 0;}
+.wrapper{width: 1024px;margin: 0 auto;}
+.not_login{text-align: center;padding: 60px 0;font-size: 20px;}
+.none{display: none;}
+
+h2{text-align: center;}
+.title_td{width: 60%;}
+.list th,
+.list td{text-align: center;}
+.list td.td_left{text-align: left;}
+.list th:last-child,
+.list td:last-child{text-align: center;}
+
+.edit_table{width: 100%;margin-bottom: 100px;}
+.edit_table td{padding: 6px 0;}
+.edit_table td:first-child{text-align: right;}
+.edit_table td.td_last,
+.edit_table td:last-child{padding-left: 12px;}
+.edit_table td[rowspan="4"]{padding-top: 0px;}
+.edit_table td.td_vt[rowspan="4"]{text-align: right;padding-top: 6px;line-height: 30px;}
+td.td_vt{vertical-align: top;}
+.edit_table th{text-align: center;font-size: 18px;padding: 10px 0;}
+.edit_table span.text-danger{padding-left: 13px;}
+.btn_wrapper{text-align: center;padding: 20px 0;}
+
+.site_table{width: 100%;}
+.site_table td{padding: 5px 0 5px 10px;text-align: right;line-height: 30px;}
+.site_table td:first-child{padding-left: 0;width: 139px;}
+.site_table td:first-child + td{text-align: left;}
+
+fieldset{background: #eee;border: 1px solid #aaa;padding: 0 0 10px 10px;border-radius: 3px;margin: 0 10px 10px 0;position: relative;display: inline-block;vertical-align: top;}
+legend{width: 30%;min-width: 256px;border: none;margin: 0;background: none;}
+.delete_fieldset{position: absolute;right: 0;margin: -35px -8px 0 0;border-radius: 50%;}
+.edit_form fieldset{width: 100%;padding: 0 20px 10px 20px;}
+.edit_form legend{width: auto;min-width: 0;background: #fff;padding: 2px 16px 3px;border: 1px solid #aaa;border-radius: 4px;}
+
+.block,.block_btn{width: 30%;min-width: 282px;display: inline-block;margin: 10px 10px 0 0;vertical-align: top;position: relative;}
+.block textarea,
+.block input[type="text"],
+.block input[type="button"]{margin-bottom: 3px;}
+.block .block_img{width: 243px;}
+.add_block,
+/*.delete_fieldset,*/
+.block .add_img{width: 100%;}
+.block .delete_block{border-radius: 50%;position: absolute;right: 0;margin: -8px -8px;}
+.block .delete_img{float: right;margin: -37px 0 0 0;}
+#add_fieldset{width: 100%;margin-top: 10px;}
+.block_parent{width: auto;}
+#block_td input.add_fieldset:first-child{margin-top: 0;}

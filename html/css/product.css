@@ -1,0 +1,47 @@
+.product {padding: 0 20px;}
+.product .item {padding-top: 20px;position: relative;}
+.product > div+div {border-top: 1px solid #848484;}
+.product .item .default{padding-bottom: 11px;}
+.product .item .item_r{margin-left: 17px;font-size: 12px;color: #313131;}
+.product .title_png {width:161px;height: 161px;}
+.product .item .title {font-size:24px;color: #149fe2;}
+.product .item .type {font-size:12px;position: absolute;right: 0;}
+.product .item .text {margin: 15px 0;line-height: 23px;}
+.product .item .product_more{
+	position: relative;
+	float: right;
+	width: 70px;
+	color: #149fe2;
+
+}
+.product .product_more_png > span{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	width: 9px;
+	height: 12px;
+	background:url('../img/pro_more.png') no-repeat 0 0;
+	transition: transform 300ms ease;
+	-webkit-transition: -webkit-transform .3s;
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transition-duration: .3s;
+	-webkit-transition-timing-function: initial;
+	-webkit-transition-delay: initial;
+}
+.product .product_more_png_open > span{
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	
+}
+.product .ios_and {height: 45px;line-height: 45px;font-size: 18px;color: #757575;}
+.product .icon_ios{
+	background:url('../img/pro_ios.png') no-repeat 0 0;
+	padding-left: 38px;
+}
+.product .icon_android{
+	background:url('../img/pro_and.png') no-repeat 0 0;
+	padding-left: 38px;
+}
+.product .detail {border-top: 1px dotted #848484;padding-bottom: 20px;}
+.product .detail .title {font-size: 18px;padding: 10px;color: #bebebe;}
